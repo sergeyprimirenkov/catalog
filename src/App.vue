@@ -20,11 +20,11 @@ body {
 
 body::after {
   content:
-    url("/driver/search.svg")
-    url("/driver/close.svg")
-    url("/driver/star.svg")
-    url("/driver/star_fill.svg")
-    url("/driver/vk.svg"); 
+    url("/driv3r/search.svg")
+    url("/driv3r/close.svg")
+    url("/driv3r/star.svg")
+    url("/driv3r/star_fill.svg")
+    url("/driv3r/vk.svg"); 
   display: none;
 }
 
@@ -118,7 +118,7 @@ p {
   background: transparent;
   border: none;
   cursor: pointer;
-  background-image: url("/driver/search.svg");
+  background-image: url("/driv3r/search.svg");
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -129,7 +129,7 @@ p {
 }
 
 .toggle-search.switched {
-  background-image: url("/driver/close.svg");
+  background-image: url("/driv3r/close.svg");
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -579,7 +579,7 @@ a:hover,
   width: 20px;
   height: 20px;
   border: none;
-  background: url("/driver/star.svg");
+  background: url("/driv3r/star.svg");
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -595,7 +595,7 @@ a:hover,
 }
 
 .liked {
-  background: url("/driver/star_fill.svg");
+  background: url("/driv3r/star_fill.svg");
 }
 
 .flashpool {
