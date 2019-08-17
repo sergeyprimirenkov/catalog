@@ -46,7 +46,7 @@
       </vk-breadcrumb>
       <div class="desc">
         <div class="game-title">
-          <h1 class="game-name">{{ game.title }} <button ref="buttonLike" @click="putLike()" :class="{ liked }" class="like" title="Добавить в избранное">
+          <h1 class="game-name">{{ game.title }} <button ref="buttonLike" @click="putLike()" :class="{ liked }" class="like" title="Добавить в избранное / Удалить из избранного">
           </button></h1>
         </div>
         <flash-message transitionName="flash" class="flash-message flashpool"></flash-message>
@@ -54,7 +54,7 @@
         <p><b class="desc">Жанр:</b> {{ game.genre }}</p>
         <p class="game-description"><b class="desc">Описание:</b> {{ game.description }}</p>
 
-        <carousel :perPage="1" paginationActiveColor="#89253e" paginationColor="#ffffff" loop>
+        <carousel :perPage="1" paginationActiveColor="#89253e" paginationColor="#ffffff" :minSwipeDistance="50">
           <slide>
             <img :src="game.image1" class="game-image" width="100%" height="auto" v-bind:alt="game.title">
           </slide>

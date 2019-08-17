@@ -42,7 +42,8 @@
 
     
       <div class="search">
-        <div class="container">
+        <div class="container container-search">
+          <div></div>
           <div :class="containerInput" class="search-input">
             <div class="container container-input">
               <input

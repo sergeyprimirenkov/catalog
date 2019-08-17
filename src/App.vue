@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <keep-alive include="tabs">
-      <router-view class="app"/>
-    </keep-alive>
+    <router-view class="app"/>
   </div>
 </template>
 
@@ -114,7 +112,7 @@ p {
 .toggle-search {
   width: 24px;
   height: 24px;
-  position: absolute;
+/*  position: absolute;*/
   background: transparent;
   border: none;
   cursor: pointer;
@@ -493,6 +491,16 @@ a:hover,
   text-decoration: none !important;
 }
 
+.container-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
 .container-footer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -800,6 +808,7 @@ a:hover,
 .toggle-search {
   right: 20px;
   top: 13px;
+  z-index: 100;
 }
 
 .uk-table th {
@@ -1056,6 +1065,10 @@ label[for=isChild] {
   .container {
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .container-header {
+    max-width: 1200px !important;
   }
 
   .item {

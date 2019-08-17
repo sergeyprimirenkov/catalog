@@ -375,7 +375,7 @@
         "video": "https://www.youtube.com/embed/DiBJAXai-bk",
         "category": "htc",
         "genre": "экшн",
-        "isChild": true
+        "isChild": false
     },
     {
         "id": 30,
@@ -1169,6 +1169,58 @@
         "category": "htc",
         "genre": "приключение",
         "isChild": true
+    },
+    {
+        "id": 91,
+        "title": "Catify VR",
+        "description": "Залезь в шкуру парижского кота в виртуальной реальности и живи повседневной жизнью кошки: гуляй, прыгай, наблюдай за ночью и царапай!",
+        "thumbnail": "images/catify/thumbnail.jpg",
+        "image1": "images/catify/1.jpg",
+        "image2": "images/catify/2.jpg",
+        "image3": "images/catify/3.jpg",
+        "video": "https://www.youtube.com/embed/p4aVaFIDmhk",
+        "category": "htc",
+        "genre": "симулятор",
+        "isChild": true
+    },
+    {
+        "id": 92,
+        "title": "Show It 2 Me",
+        "description": "3D-музыкальный клип с ретро-футуристическим ландшафтом с демонами, космическими машинами и сумасшедшими головами. Создано в Google Tilt Brush с музыкой из ночного клуба.",
+        "thumbnail": "images/show_it_2_me/thumbnail.jpg",
+        "image1": "images/show_it_2_me/1.jpg",
+        "image2": "images/show_it_2_me/2.jpg",
+        "image3": "images/show_it_2_me/3.jpg",
+        "video": "https://www.youtube.com/embed/JtYa0rb_jGQ",
+        "category": "htc",
+        "genre": "аттракцион",
+        "isChild": false
+    },
+    {
+        "id": 93,
+        "title": "In Your Face TD",
+        "description": "In Your Face TD - Tower Defense (защита башни), которая использует виртуальную реальность масштаба комнаты, чтобы придать новое измерение классическому жанру. Сражайтесь с монстрами лицом к лицу с помощью лазерного минигана или даже взрывающейся тарелки с ножом и постройте башни, чтобы выстоять.",
+        "thumbnail": "images/in_your_face_td/thumbnail.jpg",
+        "image1": "images/in_your_face_td/1.jpg",
+        "image2": "images/in_your_face_td/2.jpg",
+        "image3": "images/in_your_face_td/3.jpg",
+        "video": "https://www.youtube.com/embed/aQ1jR4zZfaU",
+        "category": "htc",
+        "genre": "стратегия",
+        "isChild": false
+    },
+    {
+        "id": 94,
+        "title": "Deadly Hunter VR",
+        "description": "Moss — динамичное приключение с элементами головоломки для одного игрока, игра сочетает классические элементы — интересных персонажей, захватывающую боевую систему, исследование мира — с новыми возможностями виртуальной реальности.",
+        "thumbnail": "images/deadly_hunter/thumbnail.jpg",
+        "image1": "images/deadly_hunter/1.jpg",
+        "image2": "images/deadly_hunter/2.jpg",
+        "image3": "images/deadly_hunter/3.jpg",
+        "video": "https://www.youtube.com/embed/hJTUhIrpA6E",
+        "category": "htc",
+        "genre": "экшн",
+        "isChild": false
     },
     {
         "id": 300,
