@@ -121,7 +121,7 @@
                   </select>
                 </div>
 
-                <div class="select-item">
+                <div class="select-item  select-item--checkbox">
                   <label for="isChild" class="label-genre">Для детей</label>
                   <input v-model="isChild" type="checkbox" id="isChild">
                 </div>

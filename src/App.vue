@@ -825,6 +825,40 @@ label[for=isChild] {
   cursor: pointer;
 }
 
+.select-item--checkbox {
+  display: flex;
+  align-items: baseline;
+}
+
+@supports (-webkit-appearance: none) {
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border: 1px solid #89253e;
+  }
+
+  input[type="checkbox"]:checked {
+    position: relative;
+    background: none;
+  }
+
+  input[type="checkbox"]:checked::after {
+    position: absolute;
+    top: 0.36rem;
+    left: 0.12rem;
+    content: "";
+    width: 1.0rem;
+    height: 0.3rem;
+    border: 3px solid #fff;
+    border-right: none;
+    border-top: none;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+}
+
 .feature-desc {
   margin-top: auto;
 }
