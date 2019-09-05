@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuikit from 'vuikit'
+// import VuikitIcons from '@vuikit/icons'
 import '@vuikit/theme'
 import App from './App.vue'
 import router from './router'
@@ -16,6 +17,7 @@ require('vue-flash-message/dist/vue-flash-message.min.css')
 Vue.config.productionTip = false
 Vue.use(VueAxios, axios)
 Vue.use(Vuikit)
+// Vue.use(VuikitIcons)
 Vue.use(VueFlashMessage)
 Vue.use(VueCarousel)
 Vue.use(BackToTop)

@@ -11,6 +11,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "@chenfengyuan/vue-carousel": "^1.0.2",
+    "@vuikit/icons": "^0.8.1",
     "@vuikit/theme": "^0.8.1",
     "axios": "^0.18.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
