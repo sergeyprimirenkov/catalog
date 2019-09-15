@@ -116,6 +116,7 @@
                     <option>стратегия</option>
                     <option>головоломка</option>
                     <option>аттракцион</option>
+                    <option>приключение</option>
                     <option>творчество</option>
                     <option>многопользовательская</option>
                   </select>
@@ -155,6 +156,7 @@
                     <option>хоррор</option>
                     <option>квест</option>
                     <option>аттракцион</option>
+                    <option>приключение</option>
                     <option>многопользовательская</option>
                   </select>
                 </div>
@@ -195,6 +197,7 @@
                     <option>спорт</option>
                     <option>файтинг</option>
                     <option>песочница</option>
+                    <option>приключение</option>
                     <option>интерактивное кино</option>
                     <option>многопользовательская</option>
                   </select>
