@@ -1223,6 +1223,45 @@
         "isChild": false
     },
     {
+        "id": 95,
+        "title": "GrowRilla VR",
+        "description": "Ты самая голодная обезьяна в мире и должна есть, чтобы расти и становиться сильнее. Красться, лезть, бросать, пробивать и стрелять, чтобы стать гигантским монстром и победить своих врагов.",
+        "thumbnail": "images/growrilla/thumbnail.jpg",
+        "image1": "images/growrilla/1.jpg",
+        "image2": "images/growrilla/2.jpg",
+        "image3": "images/growrilla/3.jpg",
+        "video": "https://www.youtube.com/embed/bD6Wt31_HGc",
+        "category": "htc",
+        "genre": "симулятор",
+        "isChild": true
+    },
+    {
+        "id": 96,
+        "title": "Mosh Pit Simulator",
+        "description": "Mosh Pit Simulator - это физическая игра-песочница с открытым миром, который наводнен безмозглыми гуманоидными существами, и даже несмотря на то, что они довольно безобидны, это не мешает вам мешать им просто веселиться. Злоупотребляйте физикой VR, бейте, уничтожайте!",
+        "thumbnail": "images/mosh_pit/thumbnail.jpg",
+        "image1": "images/mosh_pit/1.jpg",
+        "image2": "images/mosh_pit/2.jpg",
+        "image3": "images/mosh_pit/3.jpg",
+        "video": "https://www.youtube.com/embed/O3-FtemRgjY",
+        "category": "htc",
+        "genre": "симулятор",
+        "isChild": true
+    },
+    {
+        "id": 97,
+        "title": "Summer Funland",
+        "description": "Summer Funland – единственный в своем роде виртуальный парк развлечений, который в полной мере насыщен волнительными приключениями. Испытайте незабываемые эмоции даже не выходя из дома! Водные горки и подводное плавание, уличная погоня и приключения в космосе и многое другое!",
+        "thumbnail": "images/summer_funland/thumbnail.jpg",
+        "image1": "images/summer_funland/1.jpg",
+        "image2": "images/summer_funland/2.jpg",
+        "image3": "images/summer_funland/3.jpg",
+        "video": "https://www.youtube.com/embed/uWA8gKPkHSc",
+        "category": "htc",
+        "genre": "аттракцион",
+        "isChild": true
+    },
+    {
         "id": 300,
         "title": "The Playroom VR",
         "description": "Вместе вы окунетесь в мир захватывающих противоборств и командных игр. Вас ждут «Монстр на свободе», забавные курьезы «Кошек-мышек», пугающие испытания в «Доме с призраками», остросюжетные приключения в платформере для двух игроков «Роботы-спасатели» и путешествие на бандитский Дикий Запад в «Розыске!» — но не забывайте приглядывать за дерзкими проделками виртуальных роботов.",
